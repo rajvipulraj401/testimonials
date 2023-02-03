@@ -74,16 +74,16 @@ body{
     font-weight: 500;
     line-height:1.4;
     opacity: 70%;
-    
-    
+
+
 }
 
 .card--bg-purple{
-    background: hsl(263, 55%, 52%)
+    background: hsl(263, 55%, 52%);
     color: white;
     background-image: url('images/bg-pattern-quotation.svg');
-   
-   /*we can only use 1 time shorthand property in one 
+
+   /*we can only use 1 time shorthand property in one
    div or class or id else it will not work */
     background-repeat: no-repeat;
     background-position: top 10px right 100px;
@@ -102,7 +102,7 @@ body{
 
 
 
-/* NOw let's target all the others  section and MAKE IT 
+/* NOw let's target all the others  section and MAKE IT
 SPAN PROPERLY LIKE how it is done */
 
 
@@ -114,8 +114,8 @@ SPAN PROPERLY LIKE how it is done */
 .card:nth-of-type(4){
 
     grid-column: 2/4;
-    grid-row: 2/3; 
-    /* grid-row:2; 
+    grid-row: 2/3;
+    /* grid-row:2;
      AISE BHI LIKH SAKTE HAI */
     /* bs 2nd row me rhega  */
 }
@@ -134,7 +134,7 @@ SPAN PROPERLY LIKE how it is done */
     .testimonials{
         grid-template-columns: 1fr;
         width: 100%;
-        /* poora ka poora screen ya ye kaho body ka 100% jo paren 
+        /* poora ka poora screen ya ye kaho body ka 100% jo paren
         container hai  */
     }
 
@@ -144,19 +144,19 @@ SPAN PROPERLY LIKE how it is done */
         grid-column: 1;
 
     }
-    
+
     .card:nth-of-type(4){
-    
+
         grid-column: 1/2;
-        grid-row: 4/5; 
-        /* grid-row:2; 
+        grid-row: 4/5;
+        /* grid-row:2;
          AISE BHI LIKH SAKTE HAI */
         /* bs 2nd row me rhega  */
     }
-    
-    
+
+
     .card:nth-of-type(5){
-    
+
         grid-column: 1 ;
          /* even 1/2 or 1 dono same baat hai */
         grid-row: 5/6;
